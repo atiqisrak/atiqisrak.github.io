@@ -8,8 +8,8 @@ excerpt:
   github within 7 days. it has few cool features including `Github Extra Pins`
   which allows us to pin more that 6 repos in our profile.
 
-iframe: //github-readme-stats.vercel.app/api/?username=anuraghazra
-demo: //github-readme-stats.vercel.app/api/?username=anuraghazra
+iframe: //github-readme-stats.vercel.app/api/?username=atiqisrak
+demo: //github-readme-stats.vercel.app/api/?username=atiqisrak
 src: //github.com/anuraghazra/github-readme-stats
 
 info:

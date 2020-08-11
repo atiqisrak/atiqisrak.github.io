@@ -19,17 +19,18 @@ const About = () => {
           <Avatar src="hfest_avatar_2.jpg" />
         </div>
         <p>
-          Hi, I'm Anurag Hazra, a passionate self-taught frontEnd web developer
-          from India. I tend to make use of modern web technologies to build
+          Hi, I'm Atiq Israk, a passionate self-taught frontEnd web developer
+          from Bangladesh. I tend to make use of modern web technologies to build
           websites that looks great, feels fantastic, and functions correctly. I
           am especially focusing on Reactjs.
           <br />
           <br />
-          I'm also a certified graphic designer from{' '}
+          {/* I'm also a certified graphic designer from{' '}
           <a className="about__rkmscc-link" href="http://www.rkmscc.org/">
             "Ramakrishna Mission Shilpamandira"
           </a>
-          . I also do Graphic and UI designing. Since I love both programming
+           */}
+          I also do Graphic and UI designing. Since I love both programming
           and designing, I'm also interested in creating programmatic designs
           and creative coding projects.
         </p>
