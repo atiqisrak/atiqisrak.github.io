@@ -52,7 +52,7 @@
 
 <img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=atiqisrak&show_icons=true&hide_border=true" />
 
-[website]: https://atiqisrak.com
+[website]: https://atiqisrak.netlify.app/
 [twitter]: https://twitter.com/NiloyNiil
 [youtube]: https://www.youtube.com/channel/UCYC0k9BuO0rUffkQaSsKuEw
 [instagram]: https://www.instagram.com/niloyniil/
