@@ -16,7 +16,7 @@ const TagsPage = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={tagHeader + ' | Anurag Hazra'} />
+      <SEO title={tagHeader + ' | Atiq Israk'} />
 
       <BlogLayout>
         <h1>{tagHeader}</h1>
@@ -44,7 +44,7 @@ const TagsPage = ({ data, pageContext }) => {
 export default TagsPage;
 
 export const pageQuery = graphql`
-  query($tag: String) {
+  query ($tag: String) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }

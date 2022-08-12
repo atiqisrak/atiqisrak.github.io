@@ -17,11 +17,11 @@ describe('App', () => {
     cy.findByLabelText('toggle theme')
       .click()
       .should(() => {
-        expect(localStorage.getItem('anuraghazra-theme')).to.eq('dark');
+        expect(localStorage.getItem('atiqisrak-theme')).to.eq('dark');
       })
       .click()
       .should(() => {
-        expect(localStorage.getItem('anuraghazra-theme')).to.eq('light');
+        expect(localStorage.getItem('atiqisrak-theme')).to.eq('light');
       });
   });
 
@@ -41,7 +41,7 @@ describe('App', () => {
   });
 
   it('should navigate to blog', () => {
-    const editGithubUrl = `https://github.com/anuraghazra/anuraghazra.github.io/tree/develop/content/blog/exciting-new-features-in-javascript/index.md`;
+    const editGithubUrl = `https://github.com/atiqisrak/atiqisrak.github.io/tree/develop/content/blog/exciting-new-features-in-javascript/index.md`;
     cy.findByText(/blog/i, { selector: 'a' })
       .click()
       .findByText(/Random post/i)

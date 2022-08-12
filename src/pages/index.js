@@ -13,7 +13,7 @@ import Contact from '@components/Contact/Contact';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Atiq Israk - Creative Web Designer" />
+    <SEO title="Atiq Israk - Creative Web Developer" />
 
     <Home />
     <About />
