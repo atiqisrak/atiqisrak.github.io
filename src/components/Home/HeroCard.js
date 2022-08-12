@@ -31,8 +31,8 @@ function copyToClipboard(str) {
 }
 
 export const CodeCard = () => {
-  const [text, setText] = useState(`new Date().getFullYear() - 2001;`);
-  const age = new Date().getFullYear() - 2001;
+  const [text, setText] = useState(`new Date().getFullYear() - 1996;`);
+  const age = new Date().getFullYear() - 1996;
   // trimed down polyfill of String.repeat
   const changeText = () => {
     let space = repeatString(' ', 54);
@@ -45,12 +45,16 @@ export const CodeCard = () => {
       </pre>
       <pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() {'{'}</pre>
       <pre>
-        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Atiq Israk</b>";
+        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "
+        <b>Atiq Israk</b>";
       </pre>
       <pre>
-        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];
+        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["
+        <b>DESIGN</b>", "<b>DEV</b>"];
       </pre>
-      <pre onClick={changeText}>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = {text}</pre>
+      <pre onClick={changeText}>
+        5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = {text}
+      </pre>
       <pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {'}'}</pre>
       <pre>7&nbsp;&nbsp;{'}'}</pre>
     </CodeCardWrapper>
@@ -82,7 +86,7 @@ export const ColorPalette = withTheme(({ theme }) => {
   return (
     <ColorPaletteWrapper>
       <ColorBox color={theme.primaryColor} />
-      <ColorBox color={'#6A98F0'} />
+      <ColorBox color={'#e34c26'} />
       <ColorBox color={theme.gradient} />
       <ColorBox color={theme.primaryBlack} />
       <ColorBox color={theme.accentColor} />

@@ -137,7 +137,7 @@ exports.sourceNodes = ({
   cache,
 }) => {
   const { createNode } = actions;
-  const CC_PROJECTS_URI = 'https://anuraghazra.github.io/CanvasFun/data.json';
+  const CC_PROJECTS_URI = 'https://gitlab.com/atiqisrak/canvasfun/data.json';
 
   const createCreativeCodingNode = (project, i) => {
     const node = {

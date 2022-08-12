@@ -17,9 +17,9 @@ test('HeroCard renders correctly', () => {
 
   // debug();
 
-  fireEvent.click(getByText(/new Date\(\).getFullYear\(\) - 2001;/i));
+  fireEvent.click(getByText(/new Date\(\).getFullYear\(\) - 1996;/i));
 
-  let age = `${new Date().getFullYear() - 2001};`;
+  let age = `${new Date().getFullYear() - 1996};`;
   let rgx = new RegExp(`${age}`);
   getByText(rgx);
 });

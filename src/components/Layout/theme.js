@@ -28,8 +28,10 @@ const themeCommon = {
     minMobile: `(min-width: ${sizes.mobile})`,
     minTablet: `(min-width: ${sizes.tablet})`,
   },
-  gradient: 'linear-gradient(134deg, #6A98F0 0%, #4961DC 99%)',
-  gradient2: 'linear-gradient(99deg, #6A98F0 0%, #4961DC 130%)',
+  // gradient: 'linear-gradient(134deg, #6A98F0 0%, #4961DC 99%)',
+
+  gradient: 'linear-gradient(134deg, #e34c26 0%, #f06529 99%)',
+  gradient2: 'linear-gradient(99deg, #e34c26 0%, #f06529 130%)',
   swapIfDark(prop1, prop2) {
     return `${this.dark ? this[prop1] : this[prop2]};`;
   },
@@ -38,10 +40,10 @@ const themeCommon = {
 export const themelight = {
   dark: false,
   bg: '#F8F8F8',
-  primaryColor: '#6D83F2',
-  secondaryColor: '#F8F8F8',
-  accentColor: '#C7D0FF',
-  primaryBlack: '#383838',
+  primaryColor: '#6D83F2', //Code Color
+  secondaryColor: '#F8F8F8', //Code card color
+  accentColor: '#C7D0FF', //Toggler bg color
+  primaryBlack: '#f7b72f',
   primaryText: '#383838',
   ...themeCommon,
 };

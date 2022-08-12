@@ -9,7 +9,7 @@ import { CCard } from './CreativeCoding.style';
 
 const CCProject = ({ node }) => {
   let img = node.img.replace(
-    'https://atiqisrak.github.io/CanvasFun/thumbnails/',
+    'https://gitlab.com/atiqisrak/canvasfun/thumbnails/',
     ''
   );
   return (
