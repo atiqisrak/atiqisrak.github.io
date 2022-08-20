@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Wrapper from '@common/Wrapper';
 
-import logo from '@src/static/logo_white.svg';
+import logo from '@src/static/ailogo_white.svg';
 
 const FooterWrapper = styled.footer`
   width: 100vw;
@@ -28,21 +28,21 @@ const FooterWrapper = styled.footer`
 const Footer = () => (
   <FooterWrapper>
     <Wrapper>
-      <p style={{ float: 'left' }}>
+      {/* <p style={{ float: 'left' }}>
         Thanks to
         <a href="https://github.com/atiqisrak" target="__blank">
-          &nbsp;Anurah Hazra&nbsp;
+          &nbsp;Atiq Israk&nbsp;
         </a>
-      </p>
+      </p> */}
 
       <img width="35px" src={logo} alt="atiq israk" />
 
       <p style={{ float: 'right' }}>
-        Made with love by
-        <a href="https://gatsbyjs.org" target="__blank">
+        Made with ♥ by
+        {/* <a href="https://gatsbyjs.org" target="__blank">
           &nbsp;gatsby&nbsp;
         </a>
-        and
+        and */}
         <a href="https://github.com/atiqisrak" target="__blank">
           &nbsp;Atiq Israk Niloy
         </a>

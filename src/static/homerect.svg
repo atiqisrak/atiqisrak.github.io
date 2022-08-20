@@ -1,0 +1,21 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 725 990">
+    <defs>
+        <linearGradient id="a" x1="256.74" y1="-39.77" x2="889.23" y2="815.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f06529"/>
+            <stop offset="1" stop-color="#e34c26"/>
+        </linearGradient>
+        <linearGradient id="b" x1="-5.14" y1="-2.24" x2="728.43" y2="989.93" xlink:href="#a"/>
+    </defs>
+        <path d="M10.6,199.4a14.91,14.91,0,0,0,0,21.2L725,935V0H210Z" style="fill:url(#a)"/>
+        <rect width="725" height="990" style="opacity:0;fill:url(#b)"/>
+</svg> -->
+
+<svg width="725" height="1563" viewBox="0 0 725 1563" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="663.973" width="1270.03" height="939" rx="15" transform="rotate(45 663.973 0)" fill="url(#paint0_linear)"/>
+    <defs>
+        <linearGradient id="paint0_linear" x1="663.973" y1="0" x2="1559.63" y2="1211.41" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#f06529"/>
+            <stop offset="1" stop-color="#e34c26"/>
+        </linearGradient>
+    </defs>
+</svg>

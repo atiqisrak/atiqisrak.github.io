@@ -40,10 +40,10 @@ const themeCommon = {
 export const themelight = {
   dark: false,
   bg: '#F8F8F8',
-  primaryColor: '#6D83F2', //Code Color
+  primaryColor: '#f06529', //Code Color
   secondaryColor: '#F8F8F8', //Code card color
-  accentColor: '#C7D0FF', //Toggler bg color
-  primaryBlack: '#f7b72f',
+  accentColor: '#f7b72f', //Toggler bg color
+  primaryBlack: '#f06529',
   primaryText: '#383838',
   ...themeCommon,
 };
@@ -51,11 +51,11 @@ export const themelight = {
 export const themedarkblue = {
   dark: true,
   bg: '#0B0D18',
-  primaryColor: '#6D83F2',
+  primaryColor: '#f06529',
   secondaryColor: '#0F1221',
   accentColor: '#15182E',
   primaryBlack: '#F8F8F8',
-  elevation0: '#6D83F2',
+  elevation0: '#f06529',
   primaryText: '#F8F8F8',
   ...themeCommon,
 };
@@ -63,7 +63,7 @@ export const themedarkblue = {
 export const themedark = {
   dark: true,
   bg: '#191919',
-  primaryColor: '#6D83F2',
+  primaryColor: '#f06529',
   secondaryColor: '#232323',
   accentColor: '#303030',
   primaryBlack: '#F8F8F8',

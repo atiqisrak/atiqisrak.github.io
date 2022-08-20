@@ -9,7 +9,7 @@ const meta = {
 };
 
 const social = {
-  siteLogo: `src/static/logo.svg`,
+  siteLogo: `src/static/ailogo.svg`,
   siteBanner: `${meta.siteUrl}/images/social-banner.png`,
   twitter: '@anuraghazru',
 };
@@ -19,8 +19,8 @@ const website = {
   ...social,
   googleAnalyticsID: 'UA-237300065-1',
   // Manifest
-  themeColor: '#6D83F2',
-  backgroundColor: '#6D83F2',
+  themeColor: '#f06529',
+  backgroundColor: '#f06529',
 };
 
 module.exports = website;

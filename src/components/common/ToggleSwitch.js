@@ -109,7 +109,7 @@ const ToggleSwitch = () => {
           aria-label="toggle theme"
           type="checkbox"
           onChange={toggleTheme}
-          checked={theme === 'dark' ? true : false}
+          checked={theme === 'light' ? true : false}
         />
         <div className="knobs"></div>
         <div className="layer"></div>
