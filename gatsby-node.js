@@ -194,6 +194,6 @@ exports.sourceNodes = ({
         },
         0
       );
-      throw new Error(err);
+      // throw new Error(err);
     });
 };

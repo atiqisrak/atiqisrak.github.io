@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /goodies
+Sitemap: https://atiqisrak.github.io/sitemap.xml
+Host: https://atiqisrak.github.io

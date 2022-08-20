@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkatiq_israk=self.webpackChunkatiq_israk||[]).push([[883],{429:function(e,t,l){l.r(t);var n=l(7294),a=l(8159),r=l(740),s=l(1562);t.default=function(){return n.createElement(a.Z,null,n.createElement(r.Z,{title:"404: Not found"}),n.createElement("h1",null,"Opps, seems like you are lost!"),n.createElement("p",null,"Mind going back? or ",n.createElement(s.ZP,{to:"/blog"},"read some blogs")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-4d5108244b5c507fb492.js.map
