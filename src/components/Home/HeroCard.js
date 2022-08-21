@@ -85,11 +85,11 @@ const ColorBox = ({ color }) => {
 export const ColorPalette = withTheme(({ theme }) => {
   return (
     <ColorPaletteWrapper>
-      <ColorBox color={theme.primaryColor} />
-      <ColorBox color={'#e34c26'} />
+      <ColorBox color={'#0071ad'} />
       <ColorBox color={theme.gradient} />
-      <ColorBox color={theme.primaryBlack} />
+      <ColorBox color={theme.primaryColor} />
       <ColorBox color={theme.accentColor} />
+      <ColorBox color={theme.primaryBlack} />
     </ColorPaletteWrapper>
   );
 });

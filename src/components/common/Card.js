@@ -24,17 +24,20 @@ export const Card = styled.div`
     margin: 20px auto;
   }
 `;
-
+// Icon color
 export const CardIcon = styled.div`
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background: ${props => props.theme.gradient};
-  color: #f8f8f8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   svg {
-    height: 100px;
-    line-height: 100px;
+    height: 50px;
+    line-height: 50px;
     font-size: 2.2rem;
   }
 `;
